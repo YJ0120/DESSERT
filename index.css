@@ -1,0 +1,20 @@
+h2:hover{
+         color:#f0417b;
+        }
+h2{
+    display:inline;
+    animation: move 1.5s ;
+    animation-fill-mode: both;
+  }
+img{
+    display:block;
+   }
+
+@keyframes move{
+    from{
+         font-size:30px;
+        }
+    to{
+        font-size:20px;
+      }
+               }
