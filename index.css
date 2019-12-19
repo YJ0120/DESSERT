@@ -1,64 +1,75 @@
 h2:hover{
-         color: #f0417b;
-        }
+  color: #f0417b;
+}
+
 h2{
-    display: inline;
-    animation: move 1.5s ;
-    animation-fill-mode: both;
-  }
+  display: inline;
+  animation: move 1.5s ;
+  animation-fill-mode: both;
+}
+
 img{
-    display: block;
-   }
+  display: block;
+}
 
 @keyframes move{
-    from{
-         font-size:30px;
-        }
-    to{
-        font-size:20px;
-      }
-               }
-a{
- color: skyblue;
- text-decoration: none;
- }
-#article a{
-    color: #41f0bc;
-    text-decoration: underline;
-          }
-h1{
- text-align: center;
- border-bottom: 7px double gray;
- margin: 0;
- padding: 20px;
+  from{
+    font-size:30px;
   }
+  to{
+    font-size:20px;
+  }
+}
+
+a{
+  color: skyblue;
+  text-decoration: none;
+}
+
+#article a{
+  color: #41f0bc;
+  text-decoration: underline;
+}
+
+h1{
+  text-align: center;
+  border-bottom: 7px double gray;
+  margin: 0;
+  padding: 20px;
+}
+
 #grid ul{
-   border-right: 7px double gray;
-   width: 100px;
-   margin: 0;
-   padding-left: 30px;
-         }
+  border-right: 7px double gray;
+  width: 100px;
+  margin: 0;
+  padding-left: 30px;
+}
+
 #grid{
- display: grid;
- grid-template-columns: 150px 1fr;
-     }
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
 #article{
- padding: 20px;
-        }
+  padding: 20px;
+}
+
 @media(max-width:800px){
-     #grid{
-          display: block;
-          }
-     #grid ul{
-           border-right: none;
-             }
-     h1{
-       border-bottom: none;
-       }
-                        }
+  #grid{
+    display: block;
+  }
+  #grid ul{
+    border-right: none;
+  }
+  h1{
+    border-bottom: none;
+  }
+}
+
 li{
   padding-bottom: 10px;
-  }
+}
+
 li:first-child{
   padding-top: 10px;
 }
